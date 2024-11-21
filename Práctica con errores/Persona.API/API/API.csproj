@@ -9,7 +9,9 @@
 	<ItemGroup>
 
 		<PackageReference Include="Autorizacion.Abstracciones" Version="2.0.5" />
+
 		<PackageReference Include="Autorizacion.DA" Version="2.0.5" />
+
 		<PackageReference Include="Autorizacion.Flujo" Version="2.0.5" />
 		<PackageReference Include="Autorizacion.Middleware" Version="2.0.5" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />

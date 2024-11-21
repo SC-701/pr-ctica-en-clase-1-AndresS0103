@@ -13,10 +13,11 @@ namespace Flujo
         private IDocumentoDA _documentoDA;
         private IDocumentoServicio _documentoServicio;
 
-        public PerfilFlujo(IDocumentoServicio documentoServicio, IDocumentoDA documentoDA)
+        public PerfilFlujo(IDocumentoServicio documentoServicio, IDocumentoDA documentoDA, IPerfilDA perfilDA)
         {
             _documentoServicio = documentoServicio;
             _documentoDA = documentoDA;
+            _perfilDA = perfilDA;
         }
 
         public async Task<Guid> Agregar(PerfilRequest perfil)

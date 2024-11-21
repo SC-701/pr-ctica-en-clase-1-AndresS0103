@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Abstracciones.Modelos
+﻿namespace Abstracciones.Modelos
 {
-    internal class Perfil
+    public class Perfil
     {
         public Guid IdPersona { get; set; }
         public string? Video { get; set; }
